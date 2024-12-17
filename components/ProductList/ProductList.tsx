@@ -19,6 +19,7 @@ const mapProductsToCards = (products: TProduct[]) =>
               src={image}
               width={333}
               height={333}
+              alt="Product image"
               style={{
                 maxWidth: '100%',
                 height: 'auto',
